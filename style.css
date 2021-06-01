@@ -83,5 +83,30 @@ html {
      height: 3.5rem;
      margin: .5rem;
      border-radius: 50%;
-      
+ }
+
+.logo h1 span:nth-child(1) {
+    animation-name: drop-letters;
+    animation-duration: 5s;
+    animation-delay: .1s;
+    animation-iteration-count: infinite; 
+}
+
+ @keyframes drop-letters {
+     0% {
+         transform: translateY(0);
+     }
+     10% {
+        transform: translateY(0);
+     }
+     15% {
+        transform: translateY(-100%);
+     }
+
+     20% {
+        transform: translateY(0);
+     }
+     100% {
+        transform: translateY(0);
+     }
  }
