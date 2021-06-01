@@ -175,4 +175,16 @@ html {
 
  /* Popular Tours */
 
+ .popular-tours {
+     padding: 5rem 0 10rem 0;
+ }
+
+ .popular-tours-heading {
+     font-size: 8rem;
+     text-align: center;
+     margin-bottom: 8rem;
+     color: var(--primary-color);
+     text-shadow: 0 .1rem .2rem var(--primary-color);
+ }
+
 /* End of Popular Tours */
